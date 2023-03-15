@@ -39,7 +39,7 @@ export const Worklist = () => {
     
 <div className='mx-9 max-md:px-0 max-md:my-10'>
                 <Card sx={{ maxWidth: 945,height:300 }}>
-            <CardActionArea>
+            <CardActionArea key={work.title}>
                 <CardMedia
                 component="img"
                 height="140"
