@@ -37,16 +37,16 @@ export const Worklist = () => {
                 {works.map((work) => (
                             
     
-<div className='mx-9 max-md:px-0 max-md:my-10'>
+<div className='mx-9 max-md:px-0 max-md:my-10' key={work.title}>
                 <Card sx={{ maxWidth: 945,height:300 }}>
-            <CardActionArea key={work.title}>
-                <CardMedia
+            <CardActionArea >
+                <CardMedia              
                 component="img"
                 height="140"
                 image={work.img}
                 alt="cover"
                                 />
-                 <Link href={work.url}>               
+                 <Link href={work.url} >               
                 <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                     {work.title}
