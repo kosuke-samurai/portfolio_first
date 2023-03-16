@@ -31,7 +31,15 @@ const index = () => {
     <FadeIn>
        <Worklist/>
     </FadeIn> 
+    
+
+    <div className='px-96 py-8 max-md:px-0.5 max-md:py-2'>
+        
+        <h1 className='text-white text-6xl font-bold text-center my-40 max-md:text-2xl max-md:my-10'>CONTACT</h1>
+        <h1 className='text-white text-xl text-center my-40 max-md:text-sm max-md:my-10'>メール：kk.takahashi.0324@gmail.com</h1>
     </div>
+      
+ </div>
   )
 }
 

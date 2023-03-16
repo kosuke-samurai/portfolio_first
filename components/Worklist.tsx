@@ -38,7 +38,7 @@ export const Worklist = () => {
                             
     
 <div className='mx-9 max-md:px-0 max-md:my-10' key={work.title}>
-                <Card sx={{ maxWidth: 945,height:300 }}>
+                <Card sx={{ maxWidth: 945,height:320 }}>
             <CardActionArea >
                 <CardMedia              
                 component="img"
