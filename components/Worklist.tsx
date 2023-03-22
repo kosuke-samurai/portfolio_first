@@ -13,17 +13,17 @@ export const Worklist = () => {
         title: 'ソロキャンプ日和',
         url: 'https://solocamp-diary.vercel.app/',
         img: '/camp_cover.png',
-        tech: 'next.js、supabase、Google Maps API、tailwindcss使用',
+        tech: 'next.js、supabase、Google Maps API、tailwindcss使用(spファースト)',
     }, {
         title: 'ペルソナ作り × Chat GPT',
         url: 'https://chat-gpt-perusona.vercel.app/',
         img: '/gpt_cover.png',
-        tech: 'openAI API、next.js、tailwindcss使用', 
+        tech: 'openAI API、next.js、tailwindcss使用(spファースト)', 
     }, {
         title: 'ペルソナ作り × Chat GPT',
         url: 'https://chat-gpt-perusona.vercel.app/',
         img: '/gpt_cover.png',
-        tech: 'openAI API、next.js、tailwindcss使用', 
+        tech: 'openAI API、next.js、tailwindcss使用(spファースト)', 
     }]
     return (
 <>
